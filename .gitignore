@@ -3,7 +3,6 @@
 # =========================
 .env
 .env.*
-.streamlit/secrets.toml
 
 # =========================
 # 🐍 Python Cache
@@ -19,12 +18,6 @@ genai_env/
 venv/
 env/
 .venv/
-
-# =========================
-# ⚡ Streamlit
-# =========================
-.streamlit/runtime/
-.streamlit/cache/
 
 # =========================
 # 📊 Logs
