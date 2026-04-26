@@ -1,0 +1,61 @@
+# =========================
+# 🔐 Secrets (CRITICAL)
+# =========================
+.env
+.env.*
+.streamlit/secrets.toml
+
+# =========================
+# 🐍 Python Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# 📦 Virtual Environment
+# =========================
+genai_env/
+venv/
+env/
+.venv/
+
+# =========================
+# ⚡ Streamlit
+# =========================
+.streamlit/runtime/
+.streamlit/cache/
+
+# =========================
+# 📊 Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# 💻 IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# 🖥️ OS Junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧪 Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# 📦 Optional
+# =========================
+# Generated images
+# outputs/
+# generated_images/
+# uploads/

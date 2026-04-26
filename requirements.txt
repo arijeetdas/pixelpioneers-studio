@@ -1,0 +1,14 @@
+# ============================================
+# PixelPioneers Studio — Complete Dependencies
+# ============================================
+
+# ------------------ Core App ------------------
+streamlit==1.56.0
+requests==2.31.0
+python-dotenv==1.0.1
+Pillow==10.3.0
+streamlit-image-comparison==0.0.4
+numpy==1.26.4
+
+# ------------------ Replicate AI ------------------
+replicate==0.32.0
